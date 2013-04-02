@@ -1,0 +1,4 @@
+SaveTheTower
+
+Basic tower defence game in which the mission is to survive 20 waves of enemies and stop them before they reach your base.
+Create Turrets by pressing "A" key, and place on the grid pathway. You can create turrets before each wave, right before you press the ready button.

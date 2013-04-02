@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="96acdd09-a9f8-4183-83be-033c2be791e6" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
+  <Properties>
+    <DisplayName>SaveTheTower</DisplayName>
+    <Description>Save the tower by building arrows and placing those into the right place.</Description>
+    <PublisherDisplayName>Ramez</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="SaveTheTower" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Save the tower by building arrows and placing those into the right place." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
